@@ -20,9 +20,9 @@
 
 ```bash
 # 下載
-wget [https://github.com/你的帳號/ttop/raw/main/ttop](https://github.com/你的帳號/ttop/raw/main/ttop)
+wget [https://github.com/你的帳號/ttop/raw/main/ttop](https://github.com/你的帳號/ttop/raw/main/ttop_gemini.sh)
 # 或使用 curl
-# curl -O [https://github.com/你的帳號/ttop/raw/main/ttop](https://github.com/你的帳號/ttop/raw/main/ttop)
+# curl -O [https://github.com/你的帳號/ttop/raw/main/ttop](https://github.com/你的帳號/ttop/raw/main/ttopgemini_.sh)
 
 # 賦予執行權限
 chmod +x ttop_gemini.sh
