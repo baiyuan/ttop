@@ -1,6 +1,6 @@
 # 📊 ttop - 極致輕量的 Bash 系統監控助手
 
-![Screenshot](https://via.placeholder.com/800x400?text=Please+Add+Your+Screenshot+Here)
+![Screenshot](https://raw.githubusercontent.com/baiyuan/ttop/refs/heads/main/ttop.jpg)
 > *輕量、美觀、零依賴的 Linux 系統監控方案*
 
 **ttop** 是一款致敬 `btop` 風格的輕量級系統監控工具，完全由 **Bash Shell Script** 撰寫而成。
