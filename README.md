@@ -25,7 +25,7 @@ wget [https://github.com/你的帳號/ttop/raw/main/ttop](https://github.com/你
 # curl -O [https://github.com/你的帳號/ttop/raw/main/ttop](https://github.com/你的帳號/ttop/raw/main/ttop)
 
 # 賦予執行權限
-chmod +x ttop
+chmod +x ttop_gemini.sh
 
 # 執行
-./ttop
+./ttop_gemini.sh
