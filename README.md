@@ -1,13 +1,31 @@
-🚀 ttop - 你的 Linux 隨身監控神器
-伺服器不想裝一堆有的沒的？只要有 Bash，你就有 ttop。
+# 📊 ttop - 極致輕量的 Bash 系統監控助手
 
-這是一個模仿 btop 介面風格的 Shell Script，專為懶得編譯、不想裝依賴套件的你設計。無論是臨時登入某台機器查問題，還是老舊伺服器的資源監控，ttop 都能給你最即時、清晰、又不佔資源的監控體驗。
+![Screenshot](https://via.placeholder.com/800x400?text=Please+Add+Your+Screenshot+Here)
+> *輕量、美觀、零依賴的 Linux 系統監控方案*
 
-為什麼你需要它？
-⚡ 就是快：不用 Python、不用 GCC，腳本抓下來直接跑。
+**ttop** 是一款致敬 `btop` 風格的輕量級系統監控工具，完全由 **Bash Shell Script** 撰寫而成。
 
-🎨 有顏值：誰說 Shell Script 只能黑底白字？支援 ANSI 彩色進度條，負載高低一眼看穿。
+在不想安裝繁重套件、或是權限受限的伺服器環境中，**ttop** 是你的最佳選擇。它堅持 **零依賴 (Zero Dependency)**，僅調用 Linux 原生指令與 ANSI 色彩，就能在終端機 (Terminal) 呈現出高顏值的動態圖形化儀表板。
 
-🛠️ 很萬能：CPU、記憶體、硬碟掛載點狀態全部列給你看。
+## 🚀 核心特色
+* **免安裝、無痛執行**：複製腳本即可運作，支援幾乎所有 Linux 發行版 (Ubuntu, CentOS, Alpine, Arch...)。
+* **視覺化介面**：即時顯示 CPU、RAM、磁碟 I/O 的圖形化進度條（支援負載變色警示）。
+* **資訊一目了然**：整合 OS 版本、Kernel 資訊、開機時間 (Uptime) 與詳細的掛載點空間分析。
+* **智慧過濾**：自動隱藏 `tmpfs`、`overlay`、`snap` 等雜亂的虛擬掛載點，只顯示真實硬碟。
+* **極低資源佔用**：使用 `/proc/stat` 與 `/proc/meminfo` 讀取核心數據，比 `top` 更輕量。
 
-🇹🇼 台灣製造：針對正體中文環境優化，註解與說明最對味。
+## 📥 快速安裝 (Quick Start)
+
+只要下載腳本並賦予執行權限即可：
+
+```bash
+# 下載
+wget [https://github.com/你的帳號/ttop/raw/main/ttop](https://github.com/你的帳號/ttop/raw/main/ttop)
+# 或使用 curl
+# curl -O [https://github.com/你的帳號/ttop/raw/main/ttop](https://github.com/你的帳號/ttop/raw/main/ttop)
+
+# 賦予執行權限
+chmod +x ttop
+
+# 執行
+./ttop
